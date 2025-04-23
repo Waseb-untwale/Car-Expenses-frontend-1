@@ -1845,7 +1845,7 @@ const CabSearch = () => {
     const connectWebSocket = () => {
       if (wsRef.current) return
 
-      const wsUrl = "wss://api.expengo.com"
+      const wsUrl = "wss://https://car-expenses-backend.vercel.app/"
       console.log("Connecting to WebSocket:", wsUrl)
       wsRef.current = new WebSocket(wsUrl)
 
