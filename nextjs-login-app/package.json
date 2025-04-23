@@ -1,0 +1,28 @@
+{
+  "name": "nextjs-login-app",
+  "version": "1.0.0",
+  "description": "A simple Next.js application with a Hello World login page.",
+  "main": "src/app/page.jsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^15.2.2",
+    "nextjs-login-app": "file:",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-toastify": "^8.0.3"
+  },
+  "eslintConfig": {
+    "extends": "next/core-web-vitals"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ]
+}
